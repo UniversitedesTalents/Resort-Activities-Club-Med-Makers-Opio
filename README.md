@@ -20,8 +20,9 @@ Alternatif olarak Netlify'ın manuel deploy alanına, `index.html` dosyasının 
 
 Canlı sayfanın veri kaynağı: **activities-data.js**. Açıklamalar, fotoğraf yolları ve her aktivitenin `sessions` listesi burada.
 
-- Tarihler: 8, 9, 11, 12 Kasım 2026.
+- Tarihler: 11 ve 12 Kasım 2026.
 - Tennis, padel, golf, archery ve pétanque: 17:00–19:00.
+- Archery: To be confirmed (alan aydınlatması henüz teyit edilmedi).
 - Stretching: 18:00; bitiş saati verilmediği için eklenmedi.
 - Saat dilimi: Europe/Paris (Opio).
 - Günler veri kaynağından oluşturulur; farklı günlerde farklı aktiviteler tanımlanabilir.

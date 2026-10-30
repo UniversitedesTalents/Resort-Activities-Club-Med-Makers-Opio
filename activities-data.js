@@ -12,16 +12,6 @@ window.RESORT_ACTIVITIES = {
       "imagePosition": "65% center",
       "sessions": [
         {
-          "date": "2026-11-08",
-          "start": "17:00",
-          "end": "19:00"
-        },
-        {
-          "date": "2026-11-09",
-          "start": "17:00",
-          "end": "19:00"
-        },
-        {
           "date": "2026-11-11",
           "start": "17:00",
           "end": "19:00"
@@ -43,16 +33,6 @@ window.RESORT_ACTIVITIES = {
       "alt": "A group enjoying padel with a Club Med G.O",
       "imagePosition": "center",
       "sessions": [
-        {
-          "date": "2026-11-08",
-          "start": "17:00",
-          "end": "19:00"
-        },
-        {
-          "date": "2026-11-09",
-          "start": "17:00",
-          "end": "19:00"
-        },
         {
           "date": "2026-11-11",
           "start": "17:00",
@@ -76,16 +56,6 @@ window.RESORT_ACTIVITIES = {
       "imagePosition": "center",
       "sessions": [
         {
-          "date": "2026-11-08",
-          "start": "17:00",
-          "end": "19:00"
-        },
-        {
-          "date": "2026-11-09",
-          "start": "17:00",
-          "end": "19:00"
-        },
-        {
           "date": "2026-11-11",
           "start": "17:00",
           "end": "19:00"
@@ -108,16 +78,6 @@ window.RESORT_ACTIVITIES = {
       "imagePosition": "center",
       "sessions": [
         {
-          "date": "2026-11-08",
-          "start": "17:00",
-          "end": "19:00"
-        },
-        {
-          "date": "2026-11-09",
-          "start": "17:00",
-          "end": "19:00"
-        },
-        {
           "date": "2026-11-11",
           "start": "17:00",
           "end": "19:00"
@@ -127,7 +87,8 @@ window.RESORT_ACTIVITIES = {
           "start": "17:00",
           "end": "19:00"
         }
-      ]
+      ],
+      "confirmation": "To be confirmed"
     },
     {
       "id": "petanque",
@@ -139,16 +100,6 @@ window.RESORT_ACTIVITIES = {
       "alt": "Friends playing pétanque at dusk",
       "imagePosition": "center",
       "sessions": [
-        {
-          "date": "2026-11-08",
-          "start": "17:00",
-          "end": "19:00"
-        },
-        {
-          "date": "2026-11-09",
-          "start": "17:00",
-          "end": "19:00"
-        },
         {
           "date": "2026-11-11",
           "start": "17:00",
@@ -171,16 +122,6 @@ window.RESORT_ACTIVITIES = {
       "alt": "A gentle group stretching session",
       "imagePosition": "center",
       "sessions": [
-        {
-          "date": "2026-11-08",
-          "start": "18:00",
-          "end": null
-        },
-        {
-          "date": "2026-11-09",
-          "start": "18:00",
-          "end": null
-        },
         {
           "date": "2026-11-11",
           "start": "18:00",

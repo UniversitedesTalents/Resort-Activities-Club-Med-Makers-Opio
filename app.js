@@ -21,7 +21,9 @@
    const article=document.createElement('article');article.className='activity-card';article.dataset.id=activity.id;
    const photo=document.createElement('div');photo.className='photo-wrap';
    const img=document.createElement('img');img.src=activity.image;img.alt=activity.alt;img.loading='lazy';img.width=1600;img.height=1000;img.style.objectPosition=activity.imagePosition;photo.append(img);
-   const time=document.createElement('span');time.className='time';time.textContent=session.end?`${session.start}–${session.end}`:session.start;photo.append(time);article.append(photo);
+   const time=document.createElement('span');time.className='time';time.textContent=session.end?`${session.start}–${session.end}`:session.start;photo.append(time);
+   if(activity.confirmation){const badge=document.createElement('span');badge.className='confirmation-badge';badge.textContent=activity.confirmation;photo.append(badge);}
+   article.append(photo);
    const body=document.createElement('div');body.className='card-body';
    [['p','category',activity.category],['h3','',activity.title],['p','tagline',activity.tagline],['p','description',activity.description]].forEach(([tag,cls,text])=>{const el=document.createElement(tag);el.className=cls;el.textContent=text;body.append(el)});
    const detail=document.createElement('div');detail.className='card-detail';detail.innerHTML=activity.id==='stretching'?person:clock;
