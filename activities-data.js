@@ -1,0 +1,197 @@
+window.RESORT_ACTIVITIES = {
+  "timeZone": "Europe/Paris",
+  "activities": [
+    {
+      "id": "tennis",
+      "title": "Tennis",
+      "tagline": "Find your rhythm.",
+      "description": "A good rally, a little friendly competition, and a great way to spend time together. See you on court.",
+      "category": "Play & connect",
+      "image": "assets/tennis.jpg",
+      "alt": "Tennis players getting ready for a rally",
+      "imagePosition": "65% center",
+      "sessions": [
+        {
+          "date": "2026-11-08",
+          "start": "17:00",
+          "end": "19:00"
+        },
+        {
+          "date": "2026-11-09",
+          "start": "17:00",
+          "end": "19:00"
+        },
+        {
+          "date": "2026-11-11",
+          "start": "17:00",
+          "end": "19:00"
+        },
+        {
+          "date": "2026-11-12",
+          "start": "17:00",
+          "end": "19:00"
+        }
+      ]
+    },
+    {
+      "id": "padel",
+      "title": "Padel",
+      "tagline": "Better together.",
+      "description": "Grab a partner and get into the game. Quick rallies, shared laughs, and team spirit come naturally on the padel court.",
+      "category": "Play & connect",
+      "image": "assets/padel.jpg",
+      "alt": "A group enjoying padel with a Club Med G.O",
+      "imagePosition": "center",
+      "sessions": [
+        {
+          "date": "2026-11-08",
+          "start": "17:00",
+          "end": "19:00"
+        },
+        {
+          "date": "2026-11-09",
+          "start": "17:00",
+          "end": "19:00"
+        },
+        {
+          "date": "2026-11-11",
+          "start": "17:00",
+          "end": "19:00"
+        },
+        {
+          "date": "2026-11-12",
+          "start": "17:00",
+          "end": "19:00"
+        }
+      ]
+    },
+    {
+      "id": "golf",
+      "title": "Golf",
+      "tagline": "Take a different swing.",
+      "description": "Step away from the everyday and into the green. Enjoy a few swings, fresh air, and a moment to focus on your next shot.",
+      "category": "Out in the open",
+      "image": "assets/golf.jpg",
+      "alt": "Two golfers practising a putt",
+      "imagePosition": "center",
+      "sessions": [
+        {
+          "date": "2026-11-08",
+          "start": "17:00",
+          "end": "19:00"
+        },
+        {
+          "date": "2026-11-09",
+          "start": "17:00",
+          "end": "19:00"
+        },
+        {
+          "date": "2026-11-11",
+          "start": "17:00",
+          "end": "19:00"
+        },
+        {
+          "date": "2026-11-12",
+          "start": "17:00",
+          "end": "19:00"
+        }
+      ]
+    },
+    {
+      "id": "archery",
+      "title": "Archery",
+      "tagline": "Make your moment count.",
+      "description": "Breathe in, find your focus, and aim for the centre. A little concentration can turn your free time into a rewarding new challenge.",
+      "category": "Find your focus",
+      "image": "assets/archery.jpg",
+      "alt": "An archer facing a colourful target",
+      "imagePosition": "center",
+      "sessions": [
+        {
+          "date": "2026-11-08",
+          "start": "17:00",
+          "end": "19:00"
+        },
+        {
+          "date": "2026-11-09",
+          "start": "17:00",
+          "end": "19:00"
+        },
+        {
+          "date": "2026-11-11",
+          "start": "17:00",
+          "end": "19:00"
+        },
+        {
+          "date": "2026-11-12",
+          "start": "17:00",
+          "end": "19:00"
+        }
+      ]
+    },
+    {
+      "id": "petanque",
+      "title": "Pétanque",
+      "tagline": "A little Provence. A lot of fun.",
+      "description": "A classic game with a relaxed spirit. Gather your colleagues, take your best shot, and enjoy the pleasure of simply being together.",
+      "category": "The Provençal way",
+      "image": "assets/petanque.jpg",
+      "alt": "Friends playing pétanque at dusk",
+      "imagePosition": "center",
+      "sessions": [
+        {
+          "date": "2026-11-08",
+          "start": "17:00",
+          "end": "19:00"
+        },
+        {
+          "date": "2026-11-09",
+          "start": "17:00",
+          "end": "19:00"
+        },
+        {
+          "date": "2026-11-11",
+          "start": "17:00",
+          "end": "19:00"
+        },
+        {
+          "date": "2026-11-12",
+          "start": "17:00",
+          "end": "19:00"
+        }
+      ]
+    },
+    {
+      "id": "stretching",
+      "title": "Stretching",
+      "tagline": "Breathe. Stretch. Reset.",
+      "description": "Let the day slow down. Join your Fitness G.O for a gentle stretching session and leave feeling ready for the evening ahead.",
+      "category": "Slow down",
+      "image": "assets/stretching.jpg",
+      "alt": "A gentle group stretching session",
+      "imagePosition": "center",
+      "sessions": [
+        {
+          "date": "2026-11-08",
+          "start": "18:00",
+          "end": null
+        },
+        {
+          "date": "2026-11-09",
+          "start": "18:00",
+          "end": null
+        },
+        {
+          "date": "2026-11-11",
+          "start": "18:00",
+          "end": null
+        },
+        {
+          "date": "2026-11-12",
+          "start": "18:00",
+          "end": null
+        }
+      ]
+    }
+  ]
+};
