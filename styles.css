@@ -3,4 +3,19 @@
 
 /* Campaign cover: keep the full acroyoga scene visible on small screens. */
 .hero-image{object-position:center 55%}.hero-shade{background:linear-gradient(90deg,rgba(4,29,54,.75),rgba(4,29,54,.32) 40%,rgba(4,29,54,0) 73%)}
-@media(max-width:540px){.hero{min-height:655px;background:#063153}.hero-image{top:auto;bottom:0;height:260px;object-fit:cover;object-position:center 60%}.hero-shade{background:linear-gradient(180deg,#063153 0%,#063153 55%,rgba(6,49,83,0) 69%)}.hero-content{padding-bottom:260px}.hero-content>p:last-of-type{max-width:300px}}
+/* Compact mobile introduction: dates stay within easy reach. */
+.mobile-copy{display:none}
+@media(max-width:540px){
+.topbar{height:64px}.brand img{height:43px}
+.hero{min-height:0;background:#063153}
+.hero-content{padding:18px 22px 180px;max-width:none}
+.hero .eyebrow{margin:0;font-size:8px;letter-spacing:1.7px}
+.hero h1{font-size:44px;line-height:.94;letter-spacing:-1px;margin:12px 0}
+.hero-content>p:last-of-type{font-size:11px;line-height:1.6;max-width:320px;margin:0}
+.desktop-copy{display:none}.mobile-copy{display:inline}
+.hero .discover{display:none}
+.hero-image{top:auto;bottom:0;height:170px;object-fit:cover;object-position:center 57%}
+.hero-shade{background:linear-gradient(180deg,#063153 0%,#063153 49%,rgba(6,49,83,0) 68%)}
+.explore{padding-top:22px}.section-intro{margin-bottom:18px}.section-intro h2{font-size:30px}.section-intro .eyebrow{display:none}.section-intro>p{font-size:9px}
+.date-tab{min-height:72px;padding:9px 4px;gap:4px}
+}
