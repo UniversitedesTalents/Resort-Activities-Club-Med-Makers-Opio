@@ -29,3 +29,8 @@
 .closing{background:#e5e9fa}
 .activity-card{border-top:3px solid var(--lavender)}
 .bottom-nav a[aria-current] svg{color:#536cbd}
+
+/* Gym leads the activity collection with its own opening-hours badge. */
+.activity-card[data-id=gym] .time{background:var(--navy);color:#fff}
+.activity-card[data-id=gym] .category{color:#536cbd;font-weight:700}
+.activity-card[data-id=gym] .photo-wrap>img{object-position:center}

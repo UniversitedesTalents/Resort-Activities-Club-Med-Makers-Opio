@@ -2,6 +2,28 @@
   "timeZone": "Europe/Paris",
   "activities": [
     {
+      "id": "gym",
+      "title": "Gym",
+      "tagline": "Your pace. Your power.",
+      "description": "Early riser or evening mover? Make time for yourself and recharge with a workout that fits your day.",
+      "category": "Move your way",
+      "image": "assets/gym.jpg",
+      "alt": "The sunlit gym at Club Med Opio with cardio and strength equipment",
+      "imagePosition": "center",
+      "sessions": [
+        {
+          "date": "2026-11-11",
+          "start": "06:00",
+          "end": "22:00"
+        },
+        {
+          "date": "2026-11-12",
+          "start": "06:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    {
       "id": "tennis",
       "title": "Tennis",
       "tagline": "Find your rhythm.",
@@ -66,29 +88,6 @@
           "end": "19:00"
         }
       ]
-    },
-    {
-      "id": "archery",
-      "title": "Archery",
-      "tagline": "Make your moment count.",
-      "description": "Breathe in, find your focus, and aim for the centre. A little concentration can turn your free time into a rewarding new challenge.",
-      "category": "Find your focus",
-      "image": "assets/archery.jpg",
-      "alt": "An archer facing a colourful target",
-      "imagePosition": "center",
-      "sessions": [
-        {
-          "date": "2026-11-11",
-          "start": "17:00",
-          "end": "19:00"
-        },
-        {
-          "date": "2026-11-12",
-          "start": "17:00",
-          "end": "19:00"
-        }
-      ],
-      "confirmation": "To be confirmed"
     },
     {
       "id": "petanque",

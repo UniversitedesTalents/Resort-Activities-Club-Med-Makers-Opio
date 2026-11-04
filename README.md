@@ -21,8 +21,8 @@ Alternatif olarak Netlify'ın manuel deploy alanına, `index.html` dosyasının 
 Canlı sayfanın veri kaynağı: **activities-data.js**. Açıklamalar, fotoğraf yolları ve her aktivitenin `sessions` listesi burada.
 
 - Tarihler: 11 ve 12 Kasım 2026.
-- Tennis, padel, golf, archery ve pétanque: 17:00–19:00.
-- Archery: To be confirmed (alan aydınlatması henüz teyit edilmedi).
+- Tennis, padel, golf ve pétanque: 17:00–19:00.
+- Gym: ilk aktivite kartı; 06:00–22:00 açık. Fotoğraf kullanıcı tarafından sağlandı (`OPIC_C107_009[1].jpg`).
 - Stretching: 18:00; bitiş saati verilmediği için eklenmedi.
 - Saat dilimi: Europe/Paris (Opio).
 - Günler veri kaynağından oluşturulur; farklı günlerde farklı aktiviteler tanımlanabilir.
@@ -34,7 +34,7 @@ Canlı sayfanın veri kaynağı: **activities-data.js**. Açıklamalar, fotoğra
 
 - Ana kapak: kullanıcı tarafından sağlanan The Art of Free Time kampanya görseli (`Free Time_KV_Snow_Yoga_Full_150 DPI JPEG.jpg`). Mobilde yazı ve fotoğraf ayrı alanlarda gösterilerek iki kişinin de kadrajda kalması sağlandı.
 
-- Tennis, padel, golf, archery ve pétanque: kullanıcı tarafından sağlanan Club Med fotoğrafları.
+- Tennis, padel, golf ve pétanque: kullanıcı tarafından sağlanan Club Med fotoğrafları.
 - Stretching: Club Med Opio resmi sayfasının **Training Soft** aktivite görseli.
   - Sayfa: https://www.clubmed.fr/r/opio-en-provence/y
   - Görsel: https://assets.dream.clubmed/pm_7531_406_406573-l9ejnpjq0h-swhr.jpg

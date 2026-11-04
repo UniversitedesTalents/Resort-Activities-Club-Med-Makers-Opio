@@ -21,13 +21,13 @@
    const article=document.createElement('article');article.className='activity-card';article.dataset.id=activity.id;
    const photo=document.createElement('div');photo.className='photo-wrap';
    const img=document.createElement('img');img.src=activity.image;img.alt=activity.alt;img.loading='lazy';img.width=1600;img.height=1000;img.style.objectPosition=activity.imagePosition;photo.append(img);
-   const time=document.createElement('span');time.className='time';time.textContent=session.end?`${session.start}–${session.end}`:session.start;photo.append(time);
+   const time=document.createElement('span');time.className='time';time.textContent=activity.id==='gym'?`Open from ${session.start}–${session.end}`:session.end?`${session.start}–${session.end}`:session.start;photo.append(time);
    if(activity.confirmation){const badge=document.createElement('span');badge.className='confirmation-badge';badge.textContent=activity.confirmation;photo.append(badge);}
    article.append(photo);
    const body=document.createElement('div');body.className='card-body';
    [['p','category',activity.category],['h3','',activity.title],['p','tagline',activity.tagline],['p','description',activity.description]].forEach(([tag,cls,text])=>{const el=document.createElement(tag);el.className=cls;el.textContent=text;body.append(el)});
    const detail=document.createElement('div');detail.className='card-detail';detail.innerHTML=activity.id==='stretching'?person:clock;
-   const detailText=document.createElement('span');detailText.textContent=activity.id==='stretching'?'With your Fitness G.O':`${longDate(selected)} · 17:00–19:00`;detail.append(detailText);body.append(detail);article.append(body);grid.append(article);
+   const detailText=document.createElement('span');detailText.textContent=activity.id==='stretching'?'With your Fitness G.O':activity.id==='gym'?`Opening hours · ${session.start}–${session.end}`:`${longDate(selected)} · ${session.start}–${session.end}`;detail.append(detailText);body.append(detail);article.append(body);grid.append(article);
   });
  }
  dates.forEach(date=>{const b=document.createElement('button');b.className='date-tab';b.type='button';b.dataset.date=date;b.setAttribute('aria-controls','activityGrid');b.setAttribute('aria-label',longDate(date)+' 2026');
