@@ -12,6 +12,16 @@ window.RESORT_ACTIVITIES = {
       "imagePosition": "center",
       "sessions": [
         {
+          "date": "2026-11-08",
+          "start": "06:00",
+          "end": "22:00"
+        },
+        {
+          "date": "2026-11-09",
+          "start": "06:00",
+          "end": "22:00"
+        },
+        {
           "date": "2026-11-11",
           "start": "06:00",
           "end": "22:00"
@@ -33,6 +43,16 @@ window.RESORT_ACTIVITIES = {
       "alt": "Tennis players getting ready for a rally",
       "imagePosition": "65% center",
       "sessions": [
+        {
+          "date": "2026-11-08",
+          "start": "17:00",
+          "end": "19:00"
+        },
+        {
+          "date": "2026-11-09",
+          "start": "17:00",
+          "end": "19:00"
+        },
         {
           "date": "2026-11-11",
           "start": "17:00",
@@ -56,6 +76,16 @@ window.RESORT_ACTIVITIES = {
       "imagePosition": "center",
       "sessions": [
         {
+          "date": "2026-11-08",
+          "start": "17:00",
+          "end": "19:00"
+        },
+        {
+          "date": "2026-11-09",
+          "start": "17:00",
+          "end": "19:00"
+        },
+        {
           "date": "2026-11-11",
           "start": "17:00",
           "end": "19:00"
@@ -77,6 +107,16 @@ window.RESORT_ACTIVITIES = {
       "alt": "Two golfers practising a putt",
       "imagePosition": "center",
       "sessions": [
+        {
+          "date": "2026-11-08",
+          "start": "17:00",
+          "end": "19:00"
+        },
+        {
+          "date": "2026-11-09",
+          "start": "17:00",
+          "end": "19:00"
+        },
         {
           "date": "2026-11-11",
           "start": "17:00",
@@ -100,6 +140,16 @@ window.RESORT_ACTIVITIES = {
       "imagePosition": "center",
       "sessions": [
         {
+          "date": "2026-11-08",
+          "start": "17:00",
+          "end": "19:00"
+        },
+        {
+          "date": "2026-11-09",
+          "start": "17:00",
+          "end": "19:00"
+        },
+        {
           "date": "2026-11-11",
           "start": "17:00",
           "end": "19:00"
@@ -121,6 +171,16 @@ window.RESORT_ACTIVITIES = {
       "alt": "A gentle group stretching session",
       "imagePosition": "center",
       "sessions": [
+        {
+          "date": "2026-11-08",
+          "start": "18:00",
+          "end": null
+        },
+        {
+          "date": "2026-11-09",
+          "start": "18:00",
+          "end": null
+        },
         {
           "date": "2026-11-11",
           "start": "18:00",

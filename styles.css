@@ -22,7 +22,7 @@
 
 /* Club Med lavender accents and two confirmed event days. */
 :root{--lavender:#9badfa}
-.date-tabs{grid-template-columns:repeat(2,minmax(0,1fr))}
+@media(max-width:600px){.date-tabs{grid-template-columns:repeat(2,minmax(0,1fr))}}
 .date-tab[aria-pressed=true]{background:var(--lavender);color:var(--navy);border-color:var(--lavender);box-shadow:inset 0 -3px var(--navy)}
 .date-tab:hover:not([aria-pressed=true]){background:#e6ebfe;border-color:var(--lavender)}
 .confirmation-badge{position:absolute;top:14px;left:14px;background:var(--lavender);color:var(--navy);padding:9px 12px;font-size:11px;font-weight:700;line-height:1.3;border:1px solid rgba(28,42,80,.12)}

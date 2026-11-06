@@ -20,7 +20,7 @@ Alternatif olarak Netlify'ın manuel deploy alanına, `index.html` dosyasının 
 
 Canlı sayfanın veri kaynağı: **activities-data.js**. Açıklamalar, fotoğraf yolları ve her aktivitenin `sessions` listesi burada.
 
-- Tarihler: 11 ve 12 Kasım 2026.
+- Tarihler: 8, 9, 11 ve 12 Kasım 2026.
 - Tennis, padel, golf ve pétanque: 17:00–19:00.
 - Gym: ilk aktivite kartı; 06:00–22:00 açık. Fotoğraf kullanıcı tarafından sağlandı (`OPIC_C107_009[1].jpg`).
 - Stretching: 18:00; bitiş saati verilmediği için eklenmedi.
