@@ -34,7 +34,17 @@
     detailText.append(locationLabel,document.createTextNode(` · Open ${session.start}–${session.end}`));
     detail.innerHTML='<svg aria-hidden="true" viewBox="0 0 24 24"><path d="M20 10c0 5-8 11-8 11S4 15 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></svg>';
    }
-   detail.append(detailText);body.append(detail);article.append(body);grid.append(article);
+   detail.append(detailText);body.append(detail);
+   if(activity.id==='stretching'){
+    const locationDetail=document.createElement('div');
+    locationDetail.className='card-detail';
+    locationDetail.innerHTML='<svg aria-hidden="true" viewBox="0 0 24 24"><path d="M20 10c0 5-8 11-8 11S4 15 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></svg>';
+    const locationLabel=document.createElement('strong');
+    locationLabel.textContent='Fitness Room';
+    locationDetail.append(locationLabel);
+    body.append(locationDetail);
+   }
+   article.append(body);grid.append(article);
   });
  }
  dates.forEach(date=>{const b=document.createElement('button');b.className='date-tab';b.type='button';b.dataset.date=date;b.setAttribute('aria-controls','activityGrid');b.setAttribute('aria-label',longDate(date)+' 2026');
