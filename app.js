@@ -27,7 +27,7 @@
    const body=document.createElement('div');body.className='card-body';
    [['p','category',activity.category],['h3','',activity.title],['p','tagline',activity.tagline],['p','description',activity.description]].forEach(([tag,cls,text])=>{const el=document.createElement(tag);el.className=cls;el.textContent=text;body.append(el)});
    const detail=document.createElement('div');detail.className='card-detail';detail.innerHTML=activity.id==='stretching'?person:clock;
-   const detailText=document.createElement('span');detailText.textContent=activity.id==='stretching'?'With your Fitness G.O':activity.id==='gym'?`Opening hours · ${session.start}–${session.end}`:`${longDate(selected)} · ${session.start}–${session.end}`;detail.append(detailText);body.append(detail);article.append(body);grid.append(article);
+   const detailText=document.createElement('span');detailText.textContent=activity.id==='stretching'?'With your Fitness G.O':activity.id==='gym'?`Fitness Room · Open ${session.start}–${session.end}`:`${longDate(selected)} · ${session.start}–${session.end}`;detail.append(detailText);body.append(detail);article.append(body);grid.append(article);
   });
  }
  dates.forEach(date=>{const b=document.createElement('button');b.className='date-tab';b.type='button';b.dataset.date=date;b.setAttribute('aria-controls','activityGrid');b.setAttribute('aria-label',longDate(date)+' 2026');
